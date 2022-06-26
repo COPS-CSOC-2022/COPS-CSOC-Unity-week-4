@@ -6,7 +6,10 @@ public class Enemy_Destroyer : MonoBehaviour
 {
     // this function is used to detect collisions. Use the intellisence to check what you can access using the "other" 
     private void OnCollisionEnter2D(Collision2D other) {
-       
+       if (other.gameObject.tag == "enemy")
+        {
+            Destroy(other.gameObject);
+        }
     }
    
 }

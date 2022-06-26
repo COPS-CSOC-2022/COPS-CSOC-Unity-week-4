@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         enemy_rb.velocity = new Vector3(enemy_speed, enemy_rb.velocity.y, 0);
+        // giving the enemy rigidbody a velocity. this velocity will manipulate in the Enemy_Spawner script
 
     }
     
