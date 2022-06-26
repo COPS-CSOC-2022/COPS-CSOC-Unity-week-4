@@ -6,7 +6,7 @@ So you have to complete 5 subproblems:
 1. Improve the jumping mechanism in movement script and make it bit more natural and snappy. In the template given the player does jump but it is just translating in the y direction rather than really jumping. 
 2. Implement the enemy spawner system and the enemy destroyer system. The enemies have to spawn from left and right points of the ground and should die when reaching the opposite end of the ground.
 3. Complete the camera follow system. The camera should follow the player as it moves. There's no point of keeping the camera static otherwise you would just lose your sight on your character.
-4. Add the coin collection system. Whenever your character picks up a coin, total no. coins collected should be printed in the console. The output should be in this format: "Total coins collected : (no. of coins)"
+4. Add the coin collection system. Whenever your character picks up a coin, total no. coins collected should be printed in the console. The output should be in this format: "Total coins collected : (no. of coins)". You can implement this in the movement script itself.
 5. Implement the enemy killing feature. 
 
     - This feature should be implemented using colliders and tags.
